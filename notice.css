@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.notice {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: black;
+    z-index: 1000;
+}
+
+.phone {
+    height: 50px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 10px;
+    animation: rotate 1.5s ease-in-out infinite alternate;
+}
+
+.message {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+#preloader {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 684px;
+    height: 345px;
+}
+
+#dots {
+    position: absolute;
+    top: 235px;
+    left: 430px;
+    width: 30px;
+    height: 15px;
+    overflow: hidden;
+    animation: dots 2s linear infinite;
+}
+
+@keyframes dots {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 35px
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(-90deg)
+    }
+    100% {
+        transform: rotate(-90deg)
+    }
+}
+
+@media only screen and (max-device-width: 1250px) and (orientation: portrait) {
+    .notice {
+        display: flex;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    #preloader {
+        display: block;
+    }
+}

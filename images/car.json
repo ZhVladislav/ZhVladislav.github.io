@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "car.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 400,
+				"h": 1768
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "car_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 221
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 221
+					}
+				},
+				{
+					"filename": "car_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 221
+					},
+					"frame": {
+						"x": 0,
+						"y": 221,
+						"w": 400,
+						"h": 221
+					}
+				},
+				{
+					"filename": "car_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 221
+					},
+					"frame": {
+						"x": 0,
+						"y": 442,
+						"w": 400,
+						"h": 221
+					}
+				},
+				{
+					"filename": "car_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 221
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 221
+					},
+					"frame": {
+						"x": 0,
+						"y": 663,
+						"w": 400,
+						"h": 221
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:109edecc0b2a4a5fcbeb5bb2ad3570fe:05ce4d9e804d184540a8774cd00f342a:0cc8a77b70c78c003d18a01f226c6fa5$"
+	}
+}
